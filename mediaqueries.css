@@ -53,6 +53,10 @@
   .project-btn {
     width: 100%; /* Each button takes the whole width */
   }
+
+  .projects-container {
+    grid-template-columns: 100%; /* Change to one column for small screens */
+  }
 }
 
 @media screen and (max-width: 600px) {
