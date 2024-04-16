@@ -11,6 +11,8 @@
 </head>
 
 <body>
+
+  <!-- Navbar -->
   <nav id="desktop-nav">
     <div class="logo">Ammar Almajed</div>
     <div>
@@ -38,6 +40,8 @@
       </div>
     </div>
   </nav>
+
+  <!-- Profile Section -->
   <section id="profile">
     <div class="section__pic-container">
       <img src="./assets/profile-pic.webp" alt="Ammar Almajed profile picture" class="profile-pic" />
@@ -63,6 +67,7 @@
     </div>
   </section>
 
+  <!-- About Section -->
   <section id="about">
     <p class="section__text__p1">Get To Know More</p>
     <h1 class="title">About Me</h1>
@@ -95,7 +100,7 @@
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
   </section>
 
-
+  <!-- Experience -->
   <section id="experience">
     <p class="section__text__p1">Explore My</p>
     <h1 class="title">Experience</h1>
@@ -200,12 +205,79 @@
     </div>
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
   </section>
+
+  <!-- Projects -->
   <section id="projects">
     <p class="section__text__p1">Browse My Recent</p>
     <h1 class="title">Projects</h1>
+    <div class="projects-container">
+
+      <!-- Project -->
+      <div class="project">
+        <img src="./assets/wikiproduct.webp" alt="" class="project-img">
+        <div class="project-btns">
+          <button class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/WikiProductOfficial/WikiProductOfficial.git'">Github</button>
+          <button class=" btn btn-color-2 project-btn"
+            onclick="location.href='https://wikiproduct.up.railway.app/'">Demo</button>
+        </div>
+        <h3 class="project-title">Wikiproduct</h3>
+        <p class="project-desc">
+          Wikiproduct is a service that enables users to search for any items in the internet and
+          display the products
+          in a nice way to virsulize, in addition of the ability to chat with a chatbot to get the help the user to get
+          the necessary help
+        </p>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project">
+        <img src="./assets/benchmarking.webp" alt="" class="project-img">
+        <div class="project-btns">
+          <button class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/Elyas1422/multiclass_classifiers_benchmarking.git'">Github</button>
+        </div>
+        <h3 class="project-title">Benchmarking</h3>
+        <p class="project-desc">Develop diverse models, including SVM, NN, DT, and XGB on a dataset to measure each
+          model performance
+          and selecting the best model with 94% accuracy. In addition, develop an active learning mechanism that
+          enabled the model to achieve similar levels of accuracy with less amount of data.</p>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project">
+        <img src="./assets/blog.webp" alt="" class="project-img">
+        <div class="project-btns">
+          <button class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/AlmajedA/blog'">Github</button>
+        </div>
+        <h3 class="project-title">Blog</h3>
+        <p class="project-desc">
+          A simple blog website that enables users to read, post, and intract with other blogs in English and in Arabic.
+        </p>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="project">
+        <img src="./assets/cv-displayer.webp" alt="" class="project-img">
+        <div class="project-btns">
+          <button class="btn btn-color-2 project-btn"
+            onclick="location.href='https://github.com/AlmajedA/CV-displayer'">Github</button>
+        </div>
+        <h3 class="project-title">CV Displayer</h3>
+        <p class="project-desc">
+          A CV displayer that takes a JSON formated CV and display it its content in a nice design. It is built based on
+          Object Orianted Programming (OOP), and follows the abstraction and encapsulation ideas, single responsibility
+          and Open-Closed principles.
+        </p>
+      </div>
+
+    </div>
 
     <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
   </section>
+
+  <!-- Contact -->
   <section id="contact">
     <p class="section__text__p1">Get in Touch</p>
     <h1 class="title">Contact Me</h1>
@@ -220,6 +292,8 @@
       </div>
     </div>
   </section>
+
+  <!-- Footer -->
   <footer>
     <nav>
       <div class="nav-links-container">
@@ -231,7 +305,6 @@
         </ul>
       </div>
     </nav>
-    <p>Copyright &#169; 2023 Ammar Almajed. All Rights Reserved.</p>
   </footer>
   <script src="script.js"></script>
 </body>

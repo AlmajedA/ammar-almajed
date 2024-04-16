@@ -45,6 +45,14 @@
   .about-containers {
     margin-top: 0;
   }
+
+  .project-btns {
+    flex-direction: column; /* Display buttons in a column */
+  }
+
+  .project-btn {
+    width: 100%; /* Each button takes the whole width */
+  }
 }
 
 @media screen and (max-width: 600px) {
